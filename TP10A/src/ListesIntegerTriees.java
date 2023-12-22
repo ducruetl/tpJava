@@ -61,7 +61,12 @@ public class ListesIntegerTriees {
         System.out.print("listIntC2 sans doublons : ");
         listIntC2_sdb.afficheGD();
 
+        System.out.println();
 
+        System.out.println("Union de listIntC1 et listIntC2");
+        Utilitaire.union(listIntC1_sdb, listIntC2_sdb).afficheGD();
+        System.out.println("Intersection de listIntC1 et listIntC2");
+        Utilitaire.intersect(listIntC1_sdb, listIntC2_sdb).afficheGD();
 
     }
 
